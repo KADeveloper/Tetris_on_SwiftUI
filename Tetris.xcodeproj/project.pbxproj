@@ -13,6 +13,10 @@
 		5CDE4DE4241E2D2D00E7C8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDE4DE3241E2D2D00E7C8DA /* Assets.xcassets */; };
 		5CDE4DE7241E2D2D00E7C8DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDE4DE6241E2D2D00E7C8DA /* Preview Assets.xcassets */; };
 		5CDE4DEA241E2D2D00E7C8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDE4DE8241E2D2D00E7C8DA /* LaunchScreen.storyboard */; };
+		5CDE4DF2241E2E6D00E7C8DA /* TetrisGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE4DF1241E2E6D00E7C8DA /* TetrisGameViewModel.swift */; };
+		5CDE4DF4241E307200E7C8DA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE4DF3241E307200E7C8DA /* Color.swift */; };
+		5CDE4DF6241E313D00E7C8DA /* TetrisGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE4DF5241E313D00E7C8DA /* TetrisGameView.swift */; };
+		5CDE4DF8241E541600E7C8DA /* TetrisGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE4DF7241E541600E7C8DA /* TetrisGameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5CDE4DE6241E2D2D00E7C8DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CDE4DE9241E2D2D00E7C8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CDE4DEB241E2D2D00E7C8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDE4DF1241E2E6D00E7C8DA /* TetrisGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameViewModel.swift; sourceTree = "<group>"; };
+		5CDE4DF3241E307200E7C8DA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5CDE4DF5241E313D00E7C8DA /* TetrisGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameView.swift; sourceTree = "<group>"; };
+		5CDE4DF7241E541600E7C8DA /* TetrisGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		5CDE4DDC241E2D2C00E7C8DA /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
+				5CDE4DF7241E541600E7C8DA /* TetrisGameModel.swift */,
+				5CDE4DF5241E313D00E7C8DA /* TetrisGameView.swift */,
+				5CDE4DF3241E307200E7C8DA /* Color.swift */,
+				5CDE4DF1241E2E6D00E7C8DA /* TetrisGameViewModel.swift */,
 				5CDE4DDD241E2D2C00E7C8DA /* AppDelegate.swift */,
 				5CDE4DDF241E2D2C00E7C8DA /* SceneDelegate.swift */,
 				5CDE4DE1241E2D2C00E7C8DA /* ContentView.swift */,
@@ -146,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CDE4DF8241E541600E7C8DA /* TetrisGameModel.swift in Sources */,
 				5CDE4DDE241E2D2C00E7C8DA /* AppDelegate.swift in Sources */,
+				5CDE4DF6241E313D00E7C8DA /* TetrisGameView.swift in Sources */,
+				5CDE4DF2241E2E6D00E7C8DA /* TetrisGameViewModel.swift in Sources */,
 				5CDE4DE0241E2D2C00E7C8DA /* SceneDelegate.swift in Sources */,
+				5CDE4DF4241E307200E7C8DA /* Color.swift in Sources */,
 				5CDE4DE2241E2D2C00E7C8DA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tetris/Preview Content\"";
+				DEVELOPMENT_TEAM = 799LBGC267;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tetris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tetris/Preview Content\"";
+				DEVELOPMENT_TEAM = 799LBGC267;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tetris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
